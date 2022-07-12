@@ -4,6 +4,12 @@
     padding:0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+
 body{
     font-family: 'Trirong', serif;
 }
@@ -34,7 +40,7 @@ a{
     font-size: 20px;
     font: weight 500px;
 }
-.container{
+.container {
     max-width:1300px;
    padding-left: 25px;
    padding-right: 25px;
@@ -90,6 +96,14 @@ margin: 20px 0;
 .header .row{
     margin-top: 70px;
 }
+
+/* *Anbout */
+
+.imae img{
+    max-width:1300px;  
+}
+
+
 /** Featured  Caterogies */
 .categories{
     margin: 70px 0;
@@ -472,7 +486,7 @@ margin-right: 100px;
 background-color: white;
 min-width: 52%;
 text-align: center;
-box-shadow: 2px 2px 2px  lightgoldenrodyellow;
+box-shadow: 2px 2px 2px  lightgray;
 border-radius: 2px;
 
 }
@@ -536,10 +550,15 @@ span h2:hover{
 }
 
 .table-head{
-    background-color: chocolate; max-width:500px;
+    background-color: chocolate;
+     max-width:600px;
    padding: 10px;
      margin: auto;
      margin-top: 80px;
+     
+   
+
+
     
 
 }
@@ -558,6 +577,8 @@ table{
      max-width:500px;
 
 }
+
+
 
 .price{
     padding-left: 60px;
