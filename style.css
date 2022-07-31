@@ -180,6 +180,77 @@ border: 2px dotted rgb(9, 140, 221);
     max-width: 1080px;
     margin: auto;
 }
+
+/* *Contact us */
+.contact-input input{
+width: 250px;
+height: 30px;
+border: 1px solid  rgb(244, 81, 81);
+outline:none;
+border-radius:5px;
+padding-left: 3px;
+}
+.contact-info{
+    margin-top: 5px;
+}
+.contact-info label{
+    color: darkslategrey;
+}
+form{
+    margin-top: 60px;
+}
+
+.select-class select{
+    width: 250px;
+    height: 30px;
+    border: 1px solid  rgb(244, 81, 81);
+outline:none;
+border-radius:5px;
+}
+.submit-enq{
+
+    margin-top: 10px;
+}
+.submit-enq button{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    background-color:lightcoral ;
+    transition: 0.5s;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+.submit-enq button:hover{
+    opacity: 0.7;
+    background-color:  rgb(2, 14, 26);
+    color: white;
+    border: 2px dotted rgb(9, 140, 221);  
+}
+.contact-container{
+      
+    max-width:1300px;
+    padding-left: 25px;
+    padding-right: 25px;
+     margin: auto;
+     background-color: rgb(247, 247, 247);
+   height:140vh ;
+}
+.contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+.contact-column{
+    flex-basis: 45%;
+    min-width: 300px 
+}
+.contact-column img{
+    max-width: 100%;
+    padding: 50px 0;
+}
 /**Featured Products  */
 .second-row{
     display: flex;
@@ -188,6 +259,7 @@ border: 2px dotted rgb(9, 140, 221);
 }
 .product img{
     width: 100%;
+  
 }
 .product {
     flex-basis:30%;
