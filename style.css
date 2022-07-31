@@ -3,6 +3,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 html{
@@ -97,11 +98,60 @@ margin: 20px 0;
     margin-top: 70px;
 }
 
-/* *Anbout */
-
-.imae img{
-    max-width:1300px;  
+/* *About */
+.about-container{
+  
+    max-width:1300px;
+    padding-left: 25px;
+    padding-right: 25px;
+     margin: auto;
+     background-color: rgb(247, 247, 247);
+   height:105vh ;
 }
+.about-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
+.about-statement img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.about-statement{
+    flex-basis: 45%;
+    min-width: 300px;
+}
+.about-statement h1{
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: rgb(2, 14, 26);
+    border-bottom: 2px solid rgb(2, 14, 26);
+    border-bottom-right-radius: 20px;
+    padding-bottom: 3px;
+}
+.about-statement p{
+    line-height: 22px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.about-statement button{
+width: 150px;
+height: 40px;
+outline: none;
+border-radius: 3px;
+border: none;
+background-color:lightcoral ;
+transition: 0.5s;
+font-weight: 500px;
+}
+.about-statement button:hover{
+opacity: 0.7;
+background-color:  rgb(2, 14, 26);
+color: white;
+border: 2px dotted rgb(9, 140, 221);
+}
+
 
 
 /** Featured  Caterogies */
@@ -159,6 +209,7 @@ margin: 20px 0;
 }
 .product:hover{
     transform: scale(1.1)
+
 }
 
 /* * Latest Products */
