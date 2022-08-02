@@ -250,7 +250,7 @@ border-radius:5px;
     flex-wrap: wrap;  
 }
 .contact-column{
-    flex-basis: 45%;
+    flex-basis: 50%;
     min-width: 300px 
 }
 .contact-column img{
