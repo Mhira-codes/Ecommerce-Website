@@ -183,9 +183,9 @@ border: 2px dotted rgb(9, 140, 221);
 
 /* *Contact us */
 .contact-input input{
-width: 250px;
+width: 397px;
 height: 30px;
-border: 1px solid  rgb(244, 81, 81);
+border: 1px solid  rgb(229, 174, 168);
 outline:none;
 border-radius:5px;
 padding-left: 3px;
@@ -195,24 +195,30 @@ padding-left: 3px;
 }
 .contact-info label{
     color: darkslategrey;
+margin-bottom:5px ;
 }
 form{
     margin-top: 60px;
 }
-
+form h2{
+    color: rgb(2, 14, 26);
+}
 .select-class select{
-    width: 250px;
+    width: 397px;
     height: 30px;
-    border: 1px solid  rgb(244, 81, 81);
+    border: 1px solid  rgb(229, 174, 168);
 outline:none;
 border-radius:5px;
+
 }
+
+
 .submit-enq{
 
     margin-top: 10px;
 }
 .submit-enq button{
-    width: 250px;
+    width: 190px;
     height: 30px;
     outline: none;
     border-radius: 3px;
@@ -250,6 +256,9 @@ border-radius:5px;
 .contact-column img{
     max-width: 100%;
     padding: 50px 0;
+}
+textarea{
+    border: 1px solid rgb(229, 174, 168);
 }
 /**Featured Products  */
 .second-row{
